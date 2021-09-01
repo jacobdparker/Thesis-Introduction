@@ -8,46 +8,47 @@ Warning--I didn't find a database entry for ""
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--No publisher or address in JudgeBook
 Warning--No publisher or address in Parker1979
+Warning--No publisher or address in Petschek1964
 Warning--No publisher or address in Priest2014
-You've used 7 entries,
+You've used 9 entries,
             2387 wiz_defined-function locations,
-            560 strings with 4501 characters,
-and the built_in function-call counts, 3004 in all, are:
-= -- 303
-> -- 125
-< -- 0
-+ -- 33
-- -- 38
-* -- 209
-:= -- 471
-add.period$ -- 7
-call.type$ -- 7
-change.case$ -- 47
-chr.to.int$ -- 7
-cite$ -- 10
-duplicate$ -- 202
-empty$ -- 183
-format.name$ -- 40
-if$ -- 570
+            575 strings with 4709 characters,
+and the built_in function-call counts, 3947 in all, are:
+= -- 407
+> -- 151
+< -- 1
++ -- 39
+- -- 46
+* -- 269
+:= -- 603
+add.period$ -- 9
+call.type$ -- 9
+change.case$ -- 59
+chr.to.int$ -- 9
+cite$ -- 13
+duplicate$ -- 269
+empty$ -- 242
+format.name$ -- 48
+if$ -- 762
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 0
-newline$ -- 24
-num.names$ -- 28
-pop$ -- 47
+newline$ -- 30
+num.names$ -- 36
+pop$ -- 62
 preamble$ -- 1
-purify$ -- 60
+purify$ -- 76
 quote$ -- 0
-skip$ -- 196
+skip$ -- 267
 stack$ -- 0
-substring$ -- 138
-swap$ -- 99
-text.length$ -- 0
+substring$ -- 198
+swap$ -- 134
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 44
-warning$ -- 3
-while$ -- 29
+type$ -- 56
+warning$ -- 4
+while$ -- 39
 width$ -- 0
-write$ -- 82
-(There were 4 warnings)
+write$ -- 106
+(There were 5 warnings)
