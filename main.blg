@@ -4,51 +4,50 @@ The top-level auxiliary file: main.aux
 The style file: apj.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: intro.bib
-Warning--I didn't find a database entry for ""
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--No publisher or address in JudgeBook
 Warning--No publisher or address in Parker1979
 Warning--No publisher or address in Petschek1964
 Warning--No publisher or address in Priest2014
-You've used 9 entries,
+You've used 15 entries,
             2387 wiz_defined-function locations,
-            575 strings with 4709 characters,
-and the built_in function-call counts, 3947 in all, are:
-= -- 407
-> -- 151
+            619 strings with 8845 characters,
+and the built_in function-call counts, 9532 in all, are:
+= -- 1040
+> -- 547
 < -- 1
-+ -- 39
-- -- 46
-* -- 269
-:= -- 603
-add.period$ -- 9
-call.type$ -- 9
-change.case$ -- 59
-chr.to.int$ -- 9
-cite$ -- 13
-duplicate$ -- 269
-empty$ -- 242
-format.name$ -- 48
-if$ -- 762
++ -- 221
+- -- 228
+* -- 794
+:= -- 1456
+add.period$ -- 15
+call.type$ -- 15
+change.case$ -- 259
+chr.to.int$ -- 15
+cite$ -- 19
+duplicate$ -- 458
+empty$ -- 395
+format.name$ -- 244
+if$ -- 1784
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 0
-newline$ -- 30
-num.names$ -- 36
-pop$ -- 62
+newline$ -- 48
+num.names$ -- 60
+pop$ -- 261
 preamble$ -- 1
-purify$ -- 76
+purify$ -- 288
 quote$ -- 0
-skip$ -- 267
+skip$ -- 463
 stack$ -- 0
-substring$ -- 198
-swap$ -- 134
+substring$ -- 351
+swap$ -- 231
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 56
+type$ -- 100
 warning$ -- 4
-while$ -- 39
+while$ -- 55
 width$ -- 0
-write$ -- 106
-(There were 5 warnings)
+write$ -- 177
+(There were 4 warnings)
