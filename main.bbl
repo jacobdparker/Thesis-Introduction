@@ -12,6 +12,23 @@
   et~al.}{2014}]{IRIS}
 {De Pontieu}, B., et~al. 2014, \solphys, 289, 2733
 
+\bibitem[\protect\citeauthoryear{{Del Zanna} \& {Young}}{{Del Zanna} \&
+  {Young}}{2020}]{ChiantiX}
+{Del Zanna}, G.,  \& {Young}, P.~R. 2020, Atoms, 8, 46
+
+\bibitem[\protect\citeauthoryear{{Delaboudini{\`e}re}
+  et~al.}{{Delaboudini{\`e}re} et~al.}{1995}]{EIT}
+{Delaboudini{\`e}re}, J.~P., et~al. 1995, Sol.\ Phys., 162, 291
+
+\bibitem[\protect\citeauthoryear{{Dere}, {Bartoe}, \& {Brueckner}}{{Dere}
+  et~al.}{1989}]{Dere1989}
+{Dere}, K.~P., {Bartoe}, J. D.~F.,  \& {Brueckner}, G.~E. 1989, \solphys, 123,
+  41
+
+\bibitem[\protect\citeauthoryear{{Dere} et~al.}{{Dere} et~al.}{1997}]{ChiantiI}
+{Dere}, K.~P., {Landi}, E., {Mason}, H.~E., {Monsignori Fossi}, B.~C.,  \&
+  {Young}, P.~R. 1997, \aaps, 125, 149
+
 \bibitem[\protect\citeauthoryear{{Descour} \& {Dereniak}}{{Descour} \&
   {Dereniak}}{1995}]{DescourDereniakCTIS1995}
 {Descour}, M.,  \& {Dereniak}, E. 1995, \ao, 34, 4817
@@ -19,6 +36,11 @@
 \bibitem[\protect\citeauthoryear{{Fox}, {Kankelborg}, \& {Thomas}}{{Fox}
   et~al.}{2010}]{Fox2010}
 {Fox}, J.~L., {Kankelborg}, C.~C.,  \& {Thomas}, R.~J. 2010, \apj, 719, 1132
+
+\bibitem[\protect\citeauthoryear{{Furth}, {Killeen}, \& {Rosenbluth}}{{Furth}
+  et~al.}{1963}]{FKR}
+{Furth}, H.~P., {Killeen}, J.,  \& {Rosenbluth}, M.~N. 1963, Physics of Fluids,
+  6, 459
 
 \bibitem[\protect\citeauthoryear{{Judge}}{{Judge}}{2020}]{JudgeBook}
 {Judge}, P.~G. 2020, {The Sun: A Very Short Introduction}
@@ -32,6 +54,10 @@ Kak, A.,  \& Slaney, M. 2001, Principles of Computerized Tomographic Imaging,
 \bibitem[\protect\citeauthoryear{{Lemen} et~al.}{{Lemen}
   et~al.}{2012}]{Lemen2012}
 {Lemen}, J.~R., et~al. 2012, \solphys, 275, 17
+
+\bibitem[\protect\citeauthoryear{{Okamoto} \& {Yamaguchi}}{{Okamoto} \&
+  {Yamaguchi}}{1991}]{Okamoto1991}
+{Okamoto}, T.,  \& {Yamaguchi}, I. 1991, Optics Letters, 16, 1277
 
 \bibitem[\protect\citeauthoryear{{Parker}}{{Parker}}{1957}]{Parker1957}
 {Parker}, E.~N. 1957, \jgr, 62, 509
@@ -54,5 +80,8 @@ Smart, R.~T., et~al. 2021, In preparation for ApJ
 
 \bibitem[\protect\citeauthoryear{{Temmer}}{{Temmer}}{2021}]{Temmer2021}
 {Temmer}, M. 2021, Living Reviews in Solar Physics, 18, 4
+
+\bibitem[\protect\citeauthoryear{{Verhoeven}}{{Verhoeven}}{1993}]{Verhoeven1993}
+{Verhoeven}, D. 1993, \ao, 32, 3736
 
 \end{thebibliography}

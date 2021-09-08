@@ -165,12 +165,44 @@ The primary difference between a CTIS instrument and a CT scan is that the goal 
 Compared to slit spectrographs, CTIS instruments compromise spatial and spectral resolution, as well as ease of data analysis, for increased field of view and a faster temporal cadence.
 Since multiple channels can image a scene simultaneously, spectrally resolved images can be formed at every exposure, taking seconds instead of minutes or hours.
 Although, since we can only fit a limited number of channels, and there is an overlap in spatial and spectral information at every pixel, CTIS instruments have lower spatial and spectral resolution. \jdp{this probably isn't true in general.  Need a better way to qualify the trade off here.}
-The Multi-Order Solar Extreme Ultraviolet Spectrograph \citep[MOSES:{}][]{Fox2010} and Extreme ultraviolet Snapshot Imaging Spectrograph\citep[ESIS:][]{ESIS}, are two CTIS instruments developed at MSU have have a resolution of \jdp{??} and \jdp{???} respectively. \jdp{rethink if this is even needed.}
+The Multi-Order Solar Extreme Ultraviolet Spectrograph \citep[MOSES:{}][]{Fox2010} and Extreme ultraviolet Snapshot Imaging Spectrograph\citep[ESIS:][]{ESIS}, are two CTIS instruments developed at Montana State University.
 
 \jdp{Thesis Outline}
-The content of this thesis is divided into three different chapters.  
-The first chapter explores data from the first flight of the ESIS sounding rocket launch, the second describes a method by which to quantify the total spectral content in images from the first flight of MOSES in February of 2006, and the third develops a model of magnetic reconnection used to describe the observation of elliptical motion in a flare ribbon observed by \citet{Brannon2015}.
-While the projects described in each chapter are unique, they 
+The content of this thesis is divided into three chapters.  
+While the projects described in each chapter are unique, they all share a common thread, the transition region.
+The transition region is a fascinating area of solar study for a couple reasons.
+First, all mass and energy moving between the chromosphere and corona travels through the transition region.
+By tracking mass and energy flux between the upper and lower solar atmosphere we can better track how the corona is heated and observe the types features and events associated with that heating.
+Second, the transition region is where the solar atmosphere becomes magnetically dominated and is littered with magnetically driven phenomena.
+While the eruptions of the transition region are often much smaller than the large flares of the corona, they are also more frequent, making it easier to capture them with limited field of view instruments, and build statistics on their nature.
+Also, since the transition region is very thin, we can observe these events with less plasma in front of, or behind, the region of interest.
+The primary instruments used in the following studies (ESIS, MOSES, and IRIS) all aim to image the transition region and measure intensity and velocity at various heights in the transition region.
+The following chapters describe unique measurements of the transition region and discuss their possible implications on our understanding of the sun.
+
+The first chapter explores data from the first flight of the ESIS sounding rocket launch. 
+During its roughly 5 minutes of observing time ESIS captured tens of small solar eruptions, referred to as explosive events \citep{Dere1989}, and one larger jet ($\approx 20''\times40''$) over the $\approx11.5$ arcminute field of view.
+We describe how the unique images were prepared into multiple data levels, and both a qualitative and quantitative approach to understanding the data.
+Using the dominant spectral line in the ESIS passband, \spectralline{O}{v}{630}, we demonstrate how the difference between features in O\,\textsc{v} captured by different ESIS channels can be used to ``read off'' qualitative information about an events velocity, and its evolution in time.
+We also use a Multiplicative Algebraic Construction Technique \citep[MART:][]{Okamoto1991,Verhoeven1993} to combine data from all four ESIS channels and invert two different explosive events and show their evolution.
+
+The second chapter describes a method used to quantify the total spectral content in images from the first flight of MOSES.
+Early work on MOSES data revealed solar features that could not be attributed to the principal wavelength in the passband, \spectralline{He}{ii}{304}, or other obvious sources of contamination. 
+We also found signatures of this contamination in the mean cross-correlation of MOSES difference images.
+In order to identify and quantify this contamination, we fit synthetic MOSES images with known spectral content to the actual MOSES images.
+Synthetic MOSES images were formed from images captured by the Extreme-ultraviolet Imaging Telescope \citep[EIT:][]{EIT} and synthetic spectra from the Chianti database \citep{ChiantiI,ChiantiX}.
+The best fit synthetic data was found by varying the average Differential Emission Measure (DEM) over the MOSES field of view used to create the synthetic spectra until the difference between the MOSES and synthetic difference image cross-correlation was minimized.
+
+The third chapter develops a model of magnetic reconnection used to describe the observation of elliptical motion in a flare ribbon observed by \citet{Brannon2015}.
+On April 18, 2014 IRIS observed an M-class flare with a sit-and-stare that captured one of two flare ribbons.
+\citet{Brannon2015} observed a sawtooth pattern that propagated along the ribbon with a phase velocity of $\approx15$\,km\,s$^{-1}$.
+This motion resulted in oscillations in both velocity ($\pm20$\,km\,s$^{-1}$) and intensity along the slit ($\pm.5$ arcseconds) that were 180 degrees out of phase.
+Using a model of the Tearing Mode instability \citep{FKR} occurring in a reconnecting current sheet across which there is also velocity shear, we were able to reproduce the oscillations in velocity and intensity, as well as the phase velocity of the wave.
+We also propose a magnetic geometry and local plasma conditions for the flare that support this hypothesis.
+
+
+
+
+
 
 
 
