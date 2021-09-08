@@ -4,6 +4,18 @@
   et~al.}{2015}]{Brannon2015}
 {Brannon}, S.~R., {Longcope}, D.~W.,  \& {Qiu}, J. 2015, \apj, 810, 4
 
+\bibitem[\protect\citeauthoryear{{De Pontieu} et~al.}{{De Pontieu}
+  et~al.}{2021}]{DePontieu2021}
+{De Pontieu}, B., et~al. 2021, \solphys, 296, 84
+
+\bibitem[\protect\citeauthoryear{{De Pontieu} et~al.}{{De Pontieu}
+  et~al.}{2014}]{IRIS}
+{De Pontieu}, B., et~al. 2014, \solphys, 289, 2733
+
+\bibitem[\protect\citeauthoryear{{Descour} \& {Dereniak}}{{Descour} \&
+  {Dereniak}}{1995}]{DescourDereniakCTIS1995}
+{Descour}, M.,  \& {Dereniak}, E. 1995, \ao, 34, 4817
+
 \bibitem[\protect\citeauthoryear{{Fox}, {Kankelborg}, \& {Thomas}}{{Fox}
   et~al.}{2010}]{Fox2010}
 {Fox}, J.~L., {Kankelborg}, C.~C.,  \& {Thomas}, R.~J. 2010, \apj, 719, 1132
@@ -11,15 +23,34 @@
 \bibitem[\protect\citeauthoryear{{Judge}}{{Judge}}{2020}]{JudgeBook}
 {Judge}, P.~G. 2020, {The Sun: A Very Short Introduction}
 
+\bibitem[\protect\citeauthoryear{Kak \& Slaney}{Kak \&
+  Slaney}{2001}]{KakSlaney2001}
+Kak, A.,  \& Slaney, M. 2001, Principles of Computerized Tomographic Imaging,
+  Classics in Applied Mathematics (Society for Industrial and Applied
+  Mathematics)
+
+\bibitem[\protect\citeauthoryear{{Lemen} et~al.}{{Lemen}
+  et~al.}{2012}]{Lemen2012}
+{Lemen}, J.~R., et~al. 2012, \solphys, 275, 17
+
+\bibitem[\protect\citeauthoryear{{Parker}}{{Parker}}{1957}]{Parker1957}
+{Parker}, E.~N. 1957, \jgr, 62, 509
+
 \bibitem[\protect\citeauthoryear{{Parker}}{{Parker}}{1979}]{Parker1979}
 {Parker}, E.~N. 1979, {Cosmical magnetic fields. Their origin and their
   activity}
+
+\bibitem[\protect\citeauthoryear{{Petschek}}{{Petschek}}{1964}]{Petschek1964}
+{Petschek}, H.~E. 1964, {Magnetic Field Annihilation}, Vol.~50 425
 
 \bibitem[\protect\citeauthoryear{{Priest}}{{Priest}}{2014}]{Priest2014}
 {Priest}, E. 2014, {Magnetohydrodynamics of the Sun}
 
 \bibitem[\protect\citeauthoryear{Priest}{Priest}{2020}]{SolarPhysicsOverview}
 Priest, E. 2020, Solar physics: Overview
+
+\bibitem[\protect\citeauthoryear{Smart et~al.}{Smart et~al.}{2021}]{ESIS}
+Smart, R.~T., et~al. 2021, In preparation for ApJ
 
 \bibitem[\protect\citeauthoryear{{Temmer}}{{Temmer}}{2021}]{Temmer2021}
 {Temmer}, M. 2021, Living Reviews in Solar Physics, 18, 4
