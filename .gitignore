@@ -1,1 +1,6 @@
 *.fits
+*.aux
+*.bbl
+*.log
+*.syntex.gz
+*.blg
