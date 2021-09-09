@@ -66,7 +66,7 @@ As is described above, the solar atmosphere is hotter than the solar surface!
 Since the roughly 6000\,K photosphere \jdp{\sout{is incapable of} does not have sufficient thermal energy to} heat the corona to a million degrees, the energy has to come from somewhere else. 
 \cck{(In what sense, i.e., under what assumptions? Gasoline and oxygen, both at room temperature, evidently heats the engine of my car to over $200^{\circ}$F. Cold water going through a turbine in Hoover dam, or cold air interacting with a windmill in Judith Gap, somehow manages to toast my bread.)} 
 A likely source of this energy is the sun's magnetic field \citep{Priest2014}.
-The solar plasma, being an almost perfect conductor, is frozen in to the magnetic field \citep{Priest2014}.
+The solar plasma, being an almost perfect conductor, is frozen into the magnetic field \citep{Priest2014}.
 Therefore, depending on the local plasma conditions, the magnetic field is either drug around by fluid motions, or the plasma is moved by motions in the magnetic field.
 Beyond the surface of the sun the solar plasma transitions from being fluid dominated, to magnetically dominated.
 Whether a plasma is fluid or magnetically dominated depends on the ratio of its fluid pressure, $p$, to its magnetic pressure, $p_\text{mag}$, or plasma beta, where,
@@ -118,14 +118,12 @@ where $\lambda$ is the measured wavelength and $\lambda_0$ is the emitted wavele
 Photons of shorter wavelength are referred to as blue shifted, an analogy to visible light, and longer wavelengths red shifted.
 In solar physics the convention is to define the positive direction as away from us and toward the sun, therefore blue shifted photons have negative velocity and are traveling toward us, and red the opposite.
 
-\cck{Note to self: pick up here.}
-
-Light emitted from the sun comes in a wide ($\approx3000$\, nm) range of wavelengths, referred to as the solar spectrum, with it's peak emission being visible light ($\approx400-700$\, nm) \citep{JudgeBook}.
-The solar spectrum is broadly peaked around visible light, but zooming in reveals many smaller peaks and dips at various wavelengths. \jdp{I might need a figure for this.}
+Light emitted from the sun comes in a wide ($\approx3000$\, nm) range of wavelengths \cck{(Way wider than that. From Gamma rays to radio. When the range covers so many orders of magnitude, does it make sense to talk about a wavelength (or frequency) interval?)}, referred to as the solar spectrum, with it's peak emission being visible light ($\approx400-700$\, nm) \citep{JudgeBook}.
+The solar spectrum is broadly peaked around visible light, but zooming in reveals many smaller peaks and dips at various wavelengths. \jdp{I might need a figure for this.} \cck{(Or even for a sample part of it. You can grab a very broad SSI spectrum from LISIRD (I think they have citation instructions))}
 These peaks and dips are from ions emitting or absorbing photons at specific wavelengths, referred to as spectral lines, are the key to isolating and studying different portions of the solar atmosphere.
 Using filters we can isolate and image narrow wavelength ranges.
 Images of the photosphere can be captured from earth, since visible light easily passes through the Earth's atmosphere.
-As temperature increases from the photosphere up through the rest of the solar atmosphere, the sun emits generally shorter wavelengths. \jdp{True in general?}
+As temperature increases from the photosphere up through the rest of the solar atmosphere, the sun emits generally shorter wavelengths. \jdp{True in general?} \cck{(Doubtless you have noticed it doesn't work this way with the AIA channels. Higher energy transitions become accessible at higher temperatures, but the plot would be like a filled-in triangle; think of it as $hc/\lambda<\frac{1}{2}kT$. In other words, there is a (rough) lower limit on the wavelength that is accessible from a given temperature, but there is no upper limit on the wavelengths that are possible. For example, think of the classic coronal green line in eclipse images, which ultimately led to the discovery that the corona is way stinkin' hot (but not before someone proposed a new element, `coronium' as the explanation for this line!))}
 These shorter wavelengths, from ultraviolet to x-ray, are readily absorbed by the Earth's atmosphere, and therefore must be imaged from space. 
 The currently operating Atmospheric Imaging Assembly \citep[AIA:][]{Lemen2012} on board the Solar Dynamics Observatory (a satellite with multiple solar instruments), uses narrow filters to image the sun in several different Extreme Ultraviolet (EUV) wavelength ranges aimed at isolating bright spectral lines emitted by the solar atmosphere.
 \begin{figure}
@@ -144,13 +142,13 @@ Spectrographs use diffraction gratings to disperse light based on its wavelength
 Typically light traveling through a spectrograph will be focused through a slit, a very narrow strip for light to travel through, prior to being dispersed by a diffraction grating.
 These are referred to as slit spectrographs.  
 When used to image the sun, this results in an image of practically pure spectral signal over taken from a very narrow strip of sun in the direction perpendicular to the slit.
-The Interface Region Imaging Spectrograph \citep[IRIS:][]{IRIS} is currently operating satellite based slit spectrograph imaging the sun.
+The Interface Region Imaging Spectrograph \citep[IRIS:][]{IRIS} is a currently operating satellite based slit spectrograph imaging the sun.
 Slit spectrographs like IRIS build spectrally resolved images, an image of the sun with spectral information at every pixel, by scanning the slit over a wider field of view, referred to as rastering.
 Images from a rastered slit spectrograph can achieve very high spatial and spectral resolution over a decent size field of few.
-For example, a large IRIS raster has a .33 arcsecond spatial resolution and $\approx3$\,km\,s$^{-1}$ per pixel spectral resolution over a $\approx2\times3$\,arcmin field of view \citep{DePontieu2021}.
+For example, a large IRIS raster has a .33 arcsecond spatial resolution and $\approx3$\,km\,s$^{-1}$ per pixel spectral resolution over a $\approx2\times3$\,arcminute field of view \citep{DePontieu2021}.
 The down side of rastering a slit spectrograph is that a full exposure is required at every position, which with the current sensitivity of IRIS, takes $\approx10$\,s per exposure.
-This results in a spectrally resolved image taken over the course of $\approx50$ minutes for a 320-step raster.
-For more static solar scenes, with less activity, this trade off can have little affect.
+This results in a spectrally resolved image taken over the course of $\approx50$ minutes for a 320-step raster. 
+For more static solar scenes, with less activity, this trade off can have little effect.
 Unfortunately, many solar eruptions evolve on second timescales, causing the scene to constantly change as you try to image it, often resulting in the slit being pointed away from an area of interest.
 
 An alternate approach is to remove the slit, and disperse an image over a much larger field of view using a diffraction grating, often referred to as a slitless spectrograph.
@@ -160,7 +158,7 @@ These instruments, referred to as Computed Tomography Imaging Spectrographs \cit
 The primary difference between a CTIS instrument and a CT scan is that the goal of a CT scan is the capture a data cube with three spatial dimensions, $I(x,y,z)$, whereas a CTIS instrument returns a cube with two spatial dimensions and one spectral dimensions, $I(x,y,\lambda)$.
 
 \jdp{This last paragraph needs some work.  I need more concrete information and sources about the trade offs in spatial and spectral resolution.}
-Compared to slit spectrographs, CTIS instruments compromise spatial and spectral resolution, as well as ease of data analysis, for increased field of view and a faster temporal cadence.
+Compared to slit spectrographs, CTIS instruments compromise spatial and spectral resolution, as well as ease of data analysis, for increased field of view and a faster temporal cadence. \cck{I guess I would say that the trade-off is ambiguity, not resolution (spectral or spatial). What, after all, is the spatial or spectral resolution limit of a CTIS? I don't think there is any intrinsic limit, just practical limits like pixels and diffraction that would apply to any grating spectrograph.}
 Since multiple channels can image a scene simultaneously, spectrally resolved images can be formed at every exposure, taking seconds instead of minutes or hours.
 Although, since we can only fit a limited number of channels, and there is an overlap in spatial and spectral information at every pixel, CTIS instruments have lower spatial and spectral resolution. \jdp{this probably isn't true in general.  Need a better way to qualify the trade off here.}
 The Multi-Order Solar Extreme Ultraviolet Spectrograph \citep[MOSES:{}][]{Fox2010} and Extreme ultraviolet Snapshot Imaging Spectrograph\citep[ESIS:][]{ESIS}, are two CTIS instruments developed at Montana State University.
@@ -173,11 +171,11 @@ First, all mass and energy moving between the chromosphere and corona travels th
 By tracking mass and energy flux between the upper and lower solar atmosphere we can better track how the corona is heated and observe the types features and events associated with that heating.
 Second, the transition region is where the solar atmosphere becomes magnetically dominated and is littered with magnetically driven phenomena.
 While the eruptions of the transition region are often much smaller than the large flares of the corona, they are also more frequent, making it easier to capture them with limited field of view instruments, and build statistics on their nature.
-Also, since the transition region is very thin, we can observe these events with less plasma in front of, or behind, the region of interest.
+Also, since the transition region is very thin, we can observe these events with less plasma in front of, or behind, the region of interest. \cck{This reminds me that the notion of optically thin lines has not come up, so it isn't apparent at this stage why you would be concerned \emph{both} about material before and behind the events of interest.}
 The primary instruments used in the following studies (ESIS, MOSES, and IRIS) all aim to image the transition region and measure intensity and velocity at various heights in the transition region.
 The following chapters describe unique measurements of the transition region and discuss their possible implications on our understanding of the sun.
 
-The first chapter explores data from the first flight of the ESIS sounding rocket launch. 
+\cck{(Curious why you chose reverse chrono order.)} The first chapter explores data from the first flight of the ESIS sounding rocket launch. 
 During its roughly 5 minutes of observing time ESIS captured tens of small solar eruptions, referred to as explosive events \citep{Dere1989}, and one larger jet ($\approx 20''\times40''$) over the $\approx11.5$ arcminute field of view.
 We describe how the unique images were prepared into multiple data levels, and both a qualitative and quantitative approach to understanding the data.
 Using the dominant spectral line in the ESIS passband, \spectralline{O}{v}{630}, we demonstrate how the difference between features in O\,\textsc{v} captured by different ESIS channels can be used to ``read off'' qualitative information about an events velocity, and its evolution in time.
@@ -197,8 +195,8 @@ This motion resulted in oscillations in both velocity ($\pm20$\,km\,s$^{-1}$) an
 Using a model of the Tearing Mode instability \citep{FKR} occurring in a reconnecting current sheet across which there is also velocity shear, we were able to reproduce the oscillations in velocity and intensity, as well as the phase velocity of the wave.
 We also propose a magnetic geometry and local plasma conditions for the flare that support this hypothesis.
 
-Finally, following these three chapters, we summarize the discussion and conclusions from each chapter.
-We also offer some thoughts on the impact of this work, and implications for future studies in solar physics.
+Finally, following these three chapters, I summarize the discussion and conclusions from each chapter.
+I also offer some thoughts on the impact of this work, and implications for future studies in solar physics.
 
 
 
