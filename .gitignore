@@ -2,5 +2,6 @@
 *.aux
 *.bbl
 *.log
-*.syntex.gz
+*.synctex.gz
 *.blg
+*.out
